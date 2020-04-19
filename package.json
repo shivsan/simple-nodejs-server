@@ -1,0 +1,17 @@
+{
+  "name": "simple-nodejs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "npx babel src -d dist",
+    "test": "test",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "2.0.3"
+  }
+}
